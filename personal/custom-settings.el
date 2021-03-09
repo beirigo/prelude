@@ -1,5 +1,5 @@
 ;; Packages
-(prelude-require-packages '(yasnippet yasnippet-snippets doom-themes doom-modeline plantuml-mode))
+(prelude-require-packages '(yasnippet yasnippet-snippets doom-themes doom-modeline plantuml-mode zoom))
 
 ;; General Settings
 ;; (setq prelude-theme 'zenburn)
@@ -20,6 +20,8 @@
 
 (require 'doom-themes)
 
-(load-theme 'doom-dracula t)
+(load-theme 'doom-one t)
 (doom-themes-visual-bell-config)
 (doom-modeline-mode 0)
+
+(set-face-background 'mode-line "purple")
